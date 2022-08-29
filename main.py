@@ -20,8 +20,8 @@ print(my_name)
 a = True
 print(a)
 
-print("..........review..........")
 # review
+print("..........review..........")
 my_name = "KunYoung"
 age = 12
 dead = False
@@ -35,14 +35,31 @@ print(live)
 print("Hi I'm", my_name)
 print("and I'm", age, "years old")
 
-print("..........function..........")
 # function
+print("..........function..........")
 print(True)
 print(12)
 
 
 def say_hello():
     print("how r u?")
+
+
+say_hello()
+
+
+
+# Indentation (들여쓰기)
+print("..........Indentation..........")
+
+
+def say_bye():
+    print("bye bye")
+    say_hello()
+
+
+def say_bye():
+    print("bye bye")
 
 
 say_hello()
