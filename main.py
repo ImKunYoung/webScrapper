@@ -19,3 +19,20 @@ print(my_name)
 
 a = True
 print(a)
+
+print("..........review..........")
+
+# review
+my_name = "KunYoung"
+age = 12
+dead = False
+live = True
+
+print(my_name)
+print(age)
+print(dead)
+print(live)
+
+print("Hi I'm", my_name)
+print("and I'm", age, "years old")
+
