@@ -89,3 +89,15 @@ def say_multi(name, age):
 
 
 say_multi("KunYoung", 23)
+
+
+# review
+print("..........review..........")
+
+
+def tax_calculator(income, tax):
+    print(income * tax)
+
+income = 150000000
+tax = 0.2
+tax_calculator(income, tax)
