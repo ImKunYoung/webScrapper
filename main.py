@@ -47,8 +47,6 @@ def say_hello():
 
 say_hello()
 
-
-
 # Indentation (들여쓰기)
 print("..........Indentation..........")
 
@@ -63,3 +61,20 @@ def say_bye():
 
 
 say_hello()
+
+# Parameters
+print("..........Parameters..........")
+
+
+def say_hello(name):
+    print(name)
+
+
+say_hello("hello")
+
+
+def say_age(age):
+    print("and I'm", age, "years old")
+
+
+say_age(23)
