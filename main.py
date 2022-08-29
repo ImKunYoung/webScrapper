@@ -12,3 +12,10 @@ myAge = 23
 
 # snake_case
 my_Age = 23
+
+# Data Type
+my_name = "KunYoung"
+print(my_name)
+
+a = True
+print(a)
