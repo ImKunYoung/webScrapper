@@ -21,7 +21,6 @@ a = True
 print(a)
 
 print("..........review..........")
-
 # review
 my_name = "KunYoung"
 age = 12
@@ -36,3 +35,14 @@ print(live)
 print("Hi I'm", my_name)
 print("and I'm", age, "years old")
 
+print("..........function..........")
+# function
+print(True)
+print(12)
+
+
+def say_hello():
+    print("how r u?")
+
+
+say_hello()
