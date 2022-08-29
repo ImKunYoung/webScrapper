@@ -79,7 +79,6 @@ def say_age(age):
 
 say_age(23)
 
-
 # Multiple Parameters
 print("..........Multiple Parameters..........")
 
@@ -90,7 +89,6 @@ def say_multi(name, age):
 
 say_multi("KunYoung", 23)
 
-
 # review
 print("..........review..........")
 
@@ -98,6 +96,67 @@ print("..........review..........")
 def tax_calculator(income, tax):
     print(income * tax)
 
+
 income = 150000000
 tax = 0.2
 tax_calculator(income, tax)
+
+# Default Parameters
+print("..........Default Parameters..........")
+
+
+def say_hello2(user_name="anonymous"):
+    print("hello", user_name)
+
+
+say_hello2("KunYoung")
+say_hello2()
+
+
+def plus(a=0, b=0):
+    print(a + b)
+
+
+def square(a=0, b=0):
+    print(a ** b)
+
+
+def divide(a=0, b=1):
+    print(a / b)
+
+
+def minus(a=0, b=0):
+    print(a - b)
+
+
+def multiply(a=0, b=0):
+    print(a * b)
+
+
+print("..........plus..........")
+plus(2, 4)
+plus(2)
+plus()
+
+print("..........minus..........")
+minus(2, 4)
+minus(2)
+minus()
+
+print("..........multiply..........")
+multiply(2, 4)
+multiply(2)
+multiply()
+
+
+print("..........divide..........")
+divide(2, 4)
+divide(2)
+divide()
+
+
+print("..........square..........")
+square(2, 4)
+square(2)
+square()
+# - * / **
