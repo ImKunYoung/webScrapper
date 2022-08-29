@@ -78,3 +78,14 @@ def say_age(age):
 
 
 say_age(23)
+
+
+# Multiple Parameters
+print("..........Multiple Parameters..........")
+
+
+def say_multi(name, age):
+    print("and I'm", name, "years old", "and I'm", age, "years old")
+
+
+say_multi("KunYoung", 23)
