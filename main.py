@@ -255,3 +255,24 @@ elif winner == 50:
     print("elif 3")
 else:
     print("Else")
+
+
+# And & Or
+# age = input("How old are you?") # scanner
+# print(f"user answer {age}")
+#
+# print(type(age))
+
+age = int(input("How old are you?"))
+print(f"user answer {age}")
+print(type(age))
+print()
+
+if age < 18:
+    print("you can't drink.")
+elif age <= 38 and age >= 18:
+    print("you drink beer!")
+elif age == 60 or age == 70:
+    print("Birthday party!")
+else:
+    print("go ahead!")
