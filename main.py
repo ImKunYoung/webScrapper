@@ -173,3 +173,4 @@ def pay_tax(tax):
 to_pay = tax_calc(15000000)
 
 pay_tax(to_pay)
+pay_tax(tax_calc(15000000))
