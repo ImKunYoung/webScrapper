@@ -202,3 +202,13 @@ cold_juice = add_ice(juice)
 perfect_juice = add_sugar(cold_juice)
 
 print(perfect_juice)
+
+
+
+#  If
+print("..........If..........")
+a = 10
+
+if a>5:
+    print("collect")
+
