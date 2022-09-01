@@ -227,3 +227,31 @@ elif winner < 10:
     print("Winner is less than 10")
 else:
     print("Winner is 10")
+
+
+# Recap
+print("..........Recap..........")
+
+winner = 50
+
+if winner < 10:
+    print("If")
+else:
+    print("Else")
+
+
+if winner !=10:
+    print("If")
+else:
+    print("Else")
+
+if winner !=10:
+    print("If")
+elif winner <=25:
+    print("elif")
+elif winner == 0:
+    print("elif 2")
+elif winner == 50:
+    print("elif 3")
+else:
+    print("Else")
